@@ -1,0 +1,133 @@
+h1{
+    margin: 20;
+}
+html {
+    /*color de el fondo*/
+    background-color: plum;
+    background: -webkit-linear-gradient(plum, pink); 
+    background: -o-linear-gradient(plim, pink); 
+    background: -moz-linear-gradient(plum, pink); 
+    background: linear-gradient(plum, pink);
+}
+
+h1 {
+    font-size: 250%;
+    color:pink;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* centra la clase inicio sesion*/
+.Inicio-Sesion{
+    width: 400px;
+    /*relleno de un elemento es el espacio entre su contenido y su borde*/
+    padding: 8% 0 0;
+    /*establece un margen*/
+    margin: auto;
+}
+
+.Login{
+    border-radius: 15px;
+    /*nueva posicion de un elemento en relacion con su posicion normal*/ 
+    position: relative;
+    /*indica el orden de un elemento posicionado*/
+    z-index: 1;
+    /*fondo de */
+    background: plum; 
+    background: -webkit-linear-gradient(plum, pink); 
+    background: -o-linear-gradient(plum, pink); 
+    background: -moz-linear-gradient(plum, pink); 
+    background: linear-gradient(plum, pink); 
+    /* el ancho maximo*/
+    max-width: 380px;
+    /*margen entre uno o mas valores*/
+    margin: 15 auto 100px;
+    /* relleno de un elemento es el espacio entre su contenido y su borde*/
+    padding: 120px;
+    /*alineacion del texto*/
+    text-align: center;
+    /*sombras sobre cajas */
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0,0.24 );
+}
+
+.Login input{
+    /* define una lista de fuentes o familias de fuentes con un orden de prioridad,para utilizar un elemento seleccionado*/
+    font-family: "Roboto", arial;
+    font-size: 25px;
+    /*especifica el cambio entre minusculas y mayusculas del texto de un elemento*/
+    text-transform: uppercase;
+    /*linea que se dibuja alrededor de elementos*/
+    outline: 0;
+    /*fondo*/
+    
+    width: 110px;
+    /*bode*/
+    border: 0;
+    /* relleno de un elemento es el espacio entre su contenido y su borde*/
+    padding: 10px;
+    /*color*/
+    color: black;
+    font-size: 10px;
+    /*es una extencion de webkit cuyo valor es verdadero si el contexto de navegacion admite transciones */
+    -webkit-transition: all 0.3 ease;
+    /*permiten cambiar valores de propiedad sin problemas */
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+
+.form button:hover, .form button:active, .form button:focus{
+    background: pink;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: black;
+    font-size: 20px;
+}
+.form .message a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+h1 {
+    font-size: 250%;
+    color:purple;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body{
+    border-radius: 70px;
+    width: 400px;
+    /*relleno de un elemento es el espacio entre su contenido y su borde*/
+    padding: 8% 0 0;
+    /*establece un margen*/
+    margin: auto;
+    
+}
+
+body{
+    /*nueva posicion de un elemento en relacion con su posicion normal*/ 
+    position: relative;
+    /*indica el orden de un elemento posicionado*/
+    z-index: 1;
+    /*fondo de */
+    background: -webkit-linear-gradient(plum, pink); 
+    background: -o-linear-gradient(plum, pink); 
+    background: -moz-linear-gradient(plum, pink); 
+    background: linear-gradient(plum, pink); 
+    /* el ancho maximo*/
+    max-width: 380px;
+    /*margen entre uno o mas valores*/
+    margin: 15 auto 100px;
+    /* relleno de un elemento es el espacio entre su contenido y su borde*/
+    padding: 45px;
+    /*alineacion del texto*/
+    text-align: center;
+    /*sombras sobre cajas */
+    box-shadow: 0 0 20px 0 black,0 5px 5px 0 black;
+}
+
